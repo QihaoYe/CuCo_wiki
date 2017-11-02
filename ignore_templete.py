@@ -27,13 +27,15 @@ def find_all_files(path):
 
 
 ALL_FILE = set([each.replace(PATH + '/', '') for each in find_all_files(PATH_templet)])
-for i in ALL_FILE:
-    print(i)
 
 IGNORED = set()
 with open(sys.path[0] + '/.gitignore','r') as f:
     for each in f:
         IGNORED.add(each)
 
-DIFF = ALL_FILE - IGNORED
+print(IGNORED)
 
+DIFF = ALL_FILE - IGNORED
+with open(sys.path[0] + '/.gitignore','a') as f:
+    for each in DIFF:
+        f.write(each)
