@@ -33,9 +33,11 @@ with open(sys.path[0] + '/.gitignore','r') as f:
     for each in f:
         IGNORED.add(each)
 
-print(IGNORED)
-
 DIFF = ALL_FILE - IGNORED
 with open(sys.path[0] + '/.gitignore','a') as f:
     for each in DIFF:
         f.write(each)
+
+print('ADD:')
+for i, each in enumerate(DIFF):
+    print(i, each, end='')
