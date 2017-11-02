@@ -36,4 +36,4 @@ with open(sys.path[0] + '/.gitignore','r') as f:
         IGNORED.add(each)
 
 DIFF = ALL_FILE - IGNORED
-print(len(DIFF))
+
