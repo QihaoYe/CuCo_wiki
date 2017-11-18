@@ -5,3 +5,4 @@ test_file/test001.html
 test_file/test002.html
 templet/*
 !templet/readme.md
+Abandoned/*
