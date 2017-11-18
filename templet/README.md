@@ -7,4 +7,7 @@
 [sstp_5_Quatro](http://www.cssmoban.com/cssthemes/6882.shtml)\
 [ft5_40_magazine](http://www.cssmoban.com/cssthemes/6467.shtml)\
 [cpts_441_rs](http://www.cssmoban.com/cssthemes/6380.shtml)\
-[template_358_carousel](http://www.cssmoban.com/cssthemes/3859.shtml)
+[template_358_carousel](http://www.cssmoban.com/cssthemes/3859.shtml)\
+[npts_7_cvi](http://www.cssmoban.com/cssthemes/5867.shtml)\
+[dgfp_39_hz](http://www.cssmoban.com/cssthemes/5514.shtml)\
+
