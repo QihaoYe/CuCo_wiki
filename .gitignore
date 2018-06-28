@@ -6,3 +6,6 @@ test_file/test002.html
 templet/*
 !templet/readme.md
 Abandoned/*
+test_file/*
+local_copy/*
+!local_copy/local.html
